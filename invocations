@@ -1,0 +1,5 @@
+bazel run @llvm-project//mlir:mlir-tblgen -- --help
+
+bazel build //lib/Dialect/Poly:dialect_inc_gen
+
+ bazel run @llvm-project//mlir:mlir-opt -- --help
